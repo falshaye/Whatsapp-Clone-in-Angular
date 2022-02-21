@@ -1,10 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+    --app-background: #eae6df;
+    --app-background-rgb: 234,230,223;
+    --app-background-deeper: #d1d7db;
+    --app-background-deeper-rgb: 209,215,219;
+    --app-background-stripe: #00a884;
+
+    --panel-background-lighter: #f7f8fa;
+    
+    --shadow-rgb: 11,20,26;
+
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(240,242,245);
+    background-color: var(--app-background);
 }
